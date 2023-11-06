@@ -287,6 +287,7 @@ h3{
     /* HEADER */
 
     header{
+        opacity: 0;
         background-color: black;
         padding-top: 1%;
         padding-bottom: 2%;
@@ -471,29 +472,8 @@ h3{
     /* CONTACT */
 
     a span{
-        background-color: rgb(255, 255, 255);
         position: fixed;
-        color: white;
-        padding-left: 0.5%;
-        padding-right: 0.4%;
-        border-radius: 30px;
-        font-size: 30px;
-        margin-left: 48.9%;
-        margin-top: 980px;
-    }
-    
-    a span:hover{
-        position: fixed;
-        text-align: center;
-        color: white;
-        border-radius: 30px;
-        font-size: 30px;
-        padding-left: 2%;
-        padding-right: 2%;
-        margin-left: 47%;
-        margin-top: 980px;
-        animation-name: button;
-        animation-duration: 0.5s;
+        opacity: 0;
     }
 
 }
