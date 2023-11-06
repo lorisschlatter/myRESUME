@@ -16,7 +16,7 @@
         border-radius: 30px;
         font-size: 30px;
         margin-left: 48.9%;
-        margin-top: 50rem;
+        margin-top: 60rem;
     }
     
     a span:hover{
@@ -28,21 +28,21 @@
         padding-left: 2%;
         padding-right: 2%;
         margin-left: 47%;
-        margin-top: 50rem;
+        margin-top: 60rem;
         animation-name: button;
         animation-duration: 0.5s;
     }
 
     header{
+        display: flex;
+        justify-content: center;
         background-color: black;
-        padding-left: 20%;
         padding-bottom: 1%;
         padding-top: 1%;
     }
     
     nav ul li{
-        margin-left: 3%;
-        padding: 1%;
+        margin-left: 40px;
         list-style-type: none;
         display: inline;
     }
