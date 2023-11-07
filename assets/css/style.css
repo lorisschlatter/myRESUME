@@ -6,7 +6,12 @@
 
 /* MEDIA QUERIE PERMETTANT DE DIFFERIENCER LE HEADER AINSI QUE LA FLECHE DE NAVIGATION ENTRE LES DEUX TAILLES D'ECRANS */
 
-@media screen and (min-width:900px){ 
+@media screen and (min-width:899px){ 
+    .button{
+        text-align: center;
+        vertical-align: bottom;
+    }
+
     a span{
         background-color: rgb(72, 122, 214);
         position: fixed;
@@ -15,8 +20,6 @@
         padding-right: 0.4%;
         border-radius: 30px;
         font-size: 30px;
-        margin-left: 48.9%;
-        margin-top: 60rem;
     }
     
     a span:hover{
@@ -27,8 +30,6 @@
         font-size: 30px;
         padding-left: 2%;
         padding-right: 2%;
-        margin-left: 47%;
-        margin-top: 60rem;
         animation-name: button;
         animation-duration: 0.5s;
     }
@@ -74,13 +75,11 @@
 
     @keyframes button{
         from{
-            margin-left: 48.9%;
             padding-left: 0.5%;
             padding-right: 0.5%;
         }
 
         to{
-            margin-left: 47%;
             padding-left: 2%;
             padding-right: 2%;
         }
