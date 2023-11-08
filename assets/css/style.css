@@ -480,31 +480,26 @@ h3{
     
     .flat{
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
+        flex-direction: column;
+        margin-left: 25%;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     
     .mockup{
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
+        flex-direction: column;
+        margin-left: 25%;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     
     .others{
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+        flex-direction: column;
+        margin-left: 25%;
         margin-top: 3%;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-bottom: 3%;
     }
     
     .othersP{
@@ -534,7 +529,7 @@ h3{
 
     .contact .logo div a img{
         width: 12%;
-        margin-top: 5%;
+        margin-top: 16%;
         margin-bottom: 5%;
         margin-left: 44%;
     }
