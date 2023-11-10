@@ -226,6 +226,18 @@ h3{
     grid-template-columns: 1fr 1fr;
 }
 
+.centerOthers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face{
+    display: flex;
+    justify-content: center;
+    grid-area: 2 / span 2;
+}
+
 .othersP{
     font-weight: normal;
     text-align:center ;
