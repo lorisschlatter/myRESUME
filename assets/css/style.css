@@ -13,7 +13,7 @@
         padding-bottom: 4%;
     }
 
-    a{
+    .button a{
         text-decoration: none;
         color: white;
     }
@@ -89,6 +89,7 @@
 
 .image{
     background-image: url(../../assets/img/9634170.jpg);
+    background-repeat: no-repeat;
     padding-bottom: 24%;
     padding-top: 24%;
     color: white;
@@ -318,6 +319,8 @@ h3{
 
     .image{
         background-image: url(../../assets/img/9634170.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         color: white;
     }
     
